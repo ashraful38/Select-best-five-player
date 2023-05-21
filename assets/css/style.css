@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    background: #CFCFCF;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* header area */
+
+.header-area {
+    background: #000000;
+    position: relative;
+
+}
+
+.header-area::after {
+	position: absolute;
+	content: "";
+	right: -13px;
+	bottom: -19px;
+	background: url(../images/football.png) no-repeat scroll 0 0 / contain;
+	height: 166px;
+	width: 144px;
+}
+
+.header-text-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.header-left {
+    align-self: end;
+
+}
+
+.header-left img {
+    width: 386.78px;
+    height: 465.76px;
+
+}
+
+
+
+.header-mid-text {
+    align-self: center;
+    margin: 0;
+}
+
+.header-mid-text h1 {
+    font-family: 'Berkshire Swash';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 94px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF5E19;
+    margin-bottom: 40px;
+    
+}
+
+.header-mid-text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    width: 89%;
+    margin: auto;
+}
+
+.header-right {
+    align-self: end;
+    position: relative;
+}
+
+
+
+
+
+.player-details {
+    margin-top: 30px;
+}
+
+.single-player {
+    margin-bottom: 30px;
+    text-align: center;
+
+
+
+}
+
+.card-body {
+    background: black;
+    color: white;
+}
+
+.card-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.select-btn {
+    padding: 10px 70px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.select-btn:hover {
+    background: white;
+    color: blue;
+}
+
+
+
+.player-list {
+    padding: 32px 10px;
+}
+
+
+.player-list h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-bottom: 25px;
+    color: aqua;
+
+}
+
+.player-list ol li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 26px;
+}
+
+
+
+
+
+.budget-area {
+	margin-top: 33px;
+	padding: 22px;
+}
+
+.budget-area h2 {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	letter-spacing: -0.03em;
+	margin-bottom: 20px;
+}
+
+
+
+.budget-area h3 {
+	font-family: 'Manrope';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 19px;
+}
+
+.budget-area input[type="text"] {
+	border: 1px solid white;
+	background: transparent;
+	width: 117px;
+	height: 42px;
+	color: white;
+	margin-left: 15px;
+	margin-bottom: 16px;
+}
+
+.calculate {
+	margin-left: 9px;
+	margin-bottom: 20px;
+}
+

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- social media seo -->
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <title>Web Tempalate</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <!-- ##css File## -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="header-text-area">
+            <div class="header-left">
+                <img src="assets/images/Mbappe.png" alt="mbappe">
+            </div>
+            <div class="header-mid-text">
+                <h1>Select Your Best Five</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+            <div class="header-right">
+                <img src="assets/images/header-right-image.png" alt="header-right-image">
+            </div>
+
+        </div>
+    </header>
+
+    <section class="body area">
+        <div class="container">
+            <div class="player-details">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <div class="single-player">
+                                    <div class="card" style="width: 264px;">
+                                        <img src="assets/images/player/messi.png" class="card-img-top" alt="messi">
+                                        <div class="card-body">
+                                            <h5 id="messi-text" class="card-title">Lionel Messi</h5>
+                                            <p class="card-text"> 36 Goals . 120 Assist </p>
+                                            <button id="messi-btn" class="select-btn btn btn-primary" >SELECT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="single-player">
+                                    <div class="card" style="width: 264px;">
+                                        <img src="assets/images/player/neymar.png" class="card-img-top" alt="messi">
+                                        <div class="card-body">
+                                            <h5 id="neymar-text" class="card-title">Neymar Jr</h5>
+                                            <p class="card-text"> 120 Goals . 400 Assist </p>
+                                            <button id="neymar-btn"  class="select-btn btn btn-primary">SELECT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="single-player">
+                                    <div class="card" style="width: 264px;">
+                                        <img src="assets/images/player/mbappe.png" class="card-img-top" alt="messi">
+                                        <div class="card-body">
+                                            <h5 id="mbappe-text" class="card-title">kylian Mbappe</h5>
+                                            <p class="card-text"> 3 Goals . 120 Assist </p>
+                                            <button id="mbappe-btn" class="select-btn btn btn-primary">SELECT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="single-player">
+                                    <div class="card" style="width: 264px;">
+                                        <img src="assets/images/player/vitor.png" class="card-img-top" alt="messi">
+                                        <div class="card-body">
+                                            <h5 id="vitor-text" class="card-title">vitor Machado</h5>
+                                            <p class="card-text"> 14 Goals . 12 Assist </p>
+                                            <button id="vitor-btn" class="select-btn btn btn-primary">SELECT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="single-player">
+                                    <div class="card" style="width: 264px;">
+                                        <img src="assets/images/player/ramos.png" class="card-img-top" alt="messi">
+                                        <div class="card-body">
+                                            <h5 id="ramos-text" class="card-title">Sergio Ramos</h5>
+                                            <p class="card-text"> 10 Goals . 15 Assist </p>
+                                            <button id="ramos-btn" class="select-btn btn btn-primary">SELECT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="single-player">
+                                    <div class="card" style="width: 264px;">
+                                        <img src="assets/images/player/sanches.png" class="card-img-top" alt="messi">
+                                        <div class="card-body">
+                                            <h5 id="sanches-text" class="card-title">Renato Sanches</h5>
+                                            <p class="card-text"> 2 Goals . 17 Assist </p>
+                                            <button id="sanches-btn"  class="select-btn btn btn-primary">SELECT</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div  class="player-list text-white text-bg-dark">
+                                    <h2>Selected V</h2>
+                                    <ol id="player-list-container">
+                                        <!-- <li>Lionel Messi</li>
+                                        <li>Neymar Jr</li>
+                                        <li>Sergio Ramos</li>
+                                        <li>vitor Machado</li>
+                                        <li>Renato Sanches</li> -->
+                                    </ol>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="budget-area text-white text-bg-dark">
+                                    <h2>Budget</h2>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <h3>Per Player</h3>
+                                            </td>
+                                            <td><input type="text" name="" id="perPlayer-field"></td>
+                                        </tr>
+                                    </table>
+                                    <button id="calculate-btn" class="select-btn calculate btn btn-primary">calculate</button>
+                                    <h3>Player Expenses &nbsp; $<span id="expenses-field">500</span></h3>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <h3>Coach</h3>
+                                            </td>
+                                            <td><input type="text" name="" id="coach-input"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <h3>Mangement</h3>
+                                            </td>
+                                            <td><input type="text" name="" id="management-input"></td>
+                                        </tr>
+                                    </table>
+                                    <button id="total-btn"  class="select-btn calculate btn btn-primary">TOTAl</button>
+
+                                    <h3>Total &nbsp;&nbsp;&nbsp;&nbsp; $<span id="total-field">500</span></h3>
+
+
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ##js File## -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/modernizr-3.11.2.min.js"></script>
+
+    <script src="assets/js/player-list.js"></script>
+    <script src="assets/js/calculate.js"></script>
+</body>
+
+</html>
